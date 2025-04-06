@@ -497,11 +497,11 @@ class WhatsAppBot {
         await delay(config.delays.digitacao);
         await this.client.sendMessage(msg.from, 'MINHA CHAVE PIX CELULAR: 👇🏼👇🏼 ');
         await delay(config.delays.digitacao);
-        await this.client.sendMessage(msg.from, '84991315416');
+        await this.client.sendMessage(msg.from, '83993134677');
         await delay(config.delays.digitacao);
         await chat.sendStateTyping();
         await delay(config.delays.digitacao);
-        await this.client.sendMessage(msg.from, '💦bit.ly/PagarPixx 👈🏼🥰');
+        await this.client.sendMessage(msg.from, '💦 https://abre.ai/vanessapix 👈🏼🥰');
         this.logger.info('Link enviado.');
         this.gerenciadorEstado.definirEstadoUsuario(idUsuario, 'waiting_after_audiofinal2');
     }
